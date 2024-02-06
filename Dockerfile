@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /app
 COPY . /app
-RUN javac Calci.java
-CMD ["java","Calci"]
+RUN javac sample.java
+CMD ["java","sample"]
